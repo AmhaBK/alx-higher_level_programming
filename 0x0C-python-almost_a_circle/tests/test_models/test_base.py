@@ -11,11 +11,11 @@ Unittest classes:
     TestBase_save_to_file_csv - line 404
     TestBase_load_from_file_csv - line 482
     """
-    import os
-    import unittest
-    from models.base import Base
-    from models.rectangle import Rectangle
-    from models.square import Square
+import os
+import unittest
+from models.base import Base
+from models.rectangle import Rectangle
+from models.square import Square
 
 
     class TestBase_instantiation(unittest.TestCase):
